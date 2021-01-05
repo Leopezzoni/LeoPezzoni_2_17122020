@@ -1,21 +1,25 @@
+/* Body page configuration */
 body {
     box-sizing: border-box;
     font-family: "Raleway", "Sans serif";
     max-width: 1440px;
+    margin: auto;
 }
 
+/* Img configuration */
 img {
     width: 100%;
 }
 
+/* Header configuration */
 .header {
     align-items: center;
-    color: #f2f2f2;
+    color: #0065FC;
     display: flex;
     font-size: 14px;
     font-weight: bold;
     justify-content: space-between;
-    padding: 30px;
+    padding: 14px;
 }
 
 .header a {
@@ -27,36 +31,23 @@ img {
     width: 90px;
 }
 
+/* Navigation links for desktop version */
 .header-navigation-links {
-    display: none;
+    display: inline;
     padding: 25px 10px 0px;
 }
 
-.header-navigation-links-mobile {
-    display: flex;
-    justify-content: space-around;
-    padding: 9px 36px;
-    text-decoration: none;
-}
-
-.header-navigation-links-mobile [data-active=true] {
-    border-bottom: 2px solid #0065FC;
-    color: #0065FC;
-}
-
-.header-navigation-links-mobile [data-active=false] {
-    border-bottom: 2px solid grey;
-    color: grey;
-}
-
 .header-signup {
-    display: none;
+    display: initial;
 }
 
 .header-signup-hover {
     text-decoration: underline;
+    color: #0065FC;
 }
 
+
+/* Title & Subtitle */
 .title h1 {
     font-size: 20px;
     margin: 10px;
@@ -68,6 +59,7 @@ img {
 }
 
 
+/* Search bar configuration */
 .searchbar {
     border-radius: 20px;
     border: 2px solid whitesmoke;
@@ -95,7 +87,13 @@ img {
 }
 
 .searchbar-text {
-    display: none;
+    background-color: #0065FC;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    display:inline;
+    padding: 15px;
+    text-decoration: none;
 }
 
 .fa-search {
@@ -111,6 +109,8 @@ img {
     background-color: #deebff;
 }
 
+
+/* Filters */
 .filters h3 {
     margin: 10px;
 }
@@ -122,7 +122,8 @@ img {
 
 .filters-button {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    height: 60px;
 }
 
 .btn span {
@@ -164,6 +165,7 @@ img {
 }
 
 
+/* Text after Filters */
 .description-filters {
     margin: 25px 5px;
 }
@@ -173,13 +175,15 @@ img {
     margin: 10px;
 }
 
+/* Title for most popular section */
 .title-popular-section {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 18px;
+    margin: 0px 18px;
 }
 
+/* Most popular Aside */
 .most-popular {
     background-color: white;
     padding: 5px;
@@ -214,3 +218,27 @@ img {
     object-fit: cover;
     width: 128px;
 }
+
+ .most-popular .card .content-card {
+     padding-top: 15px;
+ }
+
+ .most-popular .content-card h4 {
+     font-size: 16px;
+     margin: 0px 10px;
+ }
+
+ .most-popular .content-card span {
+     font-size: 12px;
+     margin: 10px;
+     text-align: left;
+ }
+
+ .most-popular .rating-stars {
+     margin-left: 10px;
+ }
+
+ .most-popular .fa-star {
+     font-size: 10px;
+     margin-top: 8px;
+ }
