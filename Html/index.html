@@ -10,65 +10,84 @@
 
   <body>
     <!--Header for navigation-->
-  <header class="header">
+    <header class="header">
       <a href="#"><img alt="Reservia" src="./../images/logo/Reservia@3x.png"></a>
       <nav>
+        <a class="header-signup-mobile" href="#">S'inscrire</a>
         <div class="header-navigation-links-desktop" aria-label="Navigation">
           <a class="header-navigation-links" data-active="true" href="#section-one">Hébergements</a>
-          <a class="header-navigation-links" data-active="true" href="#section-two">Activités</a>
+          <a class="header-navigation-links" data-active="false" href="#section-two">Activités</a>
           <a class="header-signup" href="#">S'inscrire</a>
         </div>
       </nav>
-  </header>
-
-  <!--Title & Subtitle-->
-  <div class="title">
-    <h1>Trouvez votre hébergement pour des vacances de reve</h1>
-    <h3>En plein centre ville ou pleine nature</h3>
-  </div>
-  <!--Searchbar-->
-  <div class="searchbar" aria-label="Barre de recherche">
-  <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-  <label for="search"></label><input id="search" placeholder="Marseille, France" type="text" aria-label="ecrivez votre recherche ici">
-  <a class="searchbar-text" href="#">Rechercher</a>
-  </div>
-  <!--Filters-->
-  <div class="filters">
-    <h3>Filtres</h3>
-    <div class="filters-button">
-      <a href="#">
-        <div class="btn">
-          <i class="fas fa-money-bill-wave circle" aria-hidden="true"></i>
-          <span>Economique</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="btn">
-          <i class="fas fa-child circle" aria-hidden="true"></i>
-          <span>Familial</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="btn">
-          <i class="fas fa-heart circle" aria-hidden="true"></i>
-          <span>Romantique</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="btn">
-          <i class="fas fa-dog circle" aria-hidden="true"></i>
-          <span>Animaux autorisés</span>
-        </div>
-      </a>
+    </header>
+    <nav class="header-navigation-links-mobile" aria-label="Navigation">
+      <a class="header-navigation-links-mobile" data-active="true" href="#section-one">Hébergements</a>
+      <a class="header-navigation-links-mobile" data-active="false" href="#section-two">Activités</a>
+    </nav>
+    <!--Title & Subtitle-->
+    <div class="title">
+      <h1>Trouvez votre hébergement pour des vacances de reve</h1>
+      <h3>En plein centre ville ou pleine nature</h3>
     </div>
-  </div>
-  <!--Description filters-->
-  <div class="description of filters">
-    <span><i class="fas fa-info-circle" aria-hidden="true"></i>Plus de 500 logements sont disponibles dans cette ville</span>
-  </div>
-  
-  <!--Section most popular-->  
-      <script src="https://kit.fontawesome.com/915d0ea0a4.js" crossorigin="anonymous"></script>
-    </body>
-  
+    <!--Searchbar-->
+    <div class="searchbar" aria-label="Barre de recherche">
+      <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+      <label for="search"></label><input id="search" placeholder="Marseille, France" type="text" aria-label="ecrivez votre recherche ici">
+      <a class="searchbar-text" href="#">Rechercher</a>
+    </div>
+    <!--Filters-->
+    <div class="filters">
+      <h3>Filtres</h3>
+      <div class="filters-button">
+        <a href="#">
+          <div class="btn">
+            <i class="fas fa-money-bill-wave circle" aria-hidden="true"></i>
+            <span>Economique</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="btn">
+            <i class="fas fa-child circle" aria-hidden="true"></i>
+            <span>Familial</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="btn">
+            <i class="fas fa-heart circle" aria-hidden="true"></i>
+            <span>Romantique</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="btn">
+            <i class="fas fa-dog circle" aria-hidden="true"></i>
+            <span>Animaux autorisés</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--Description filters-->
+    <div class="description-filters">
+    <span><i class="fas fa-info-circle description-filters-icon" aria-hidden="true"></i>Plus de 500 logements sont disponibles dans cette ville</span>
+    </div>
+
+  <main>
+  <!--Section most popular-->
+   <div class="hosting">
+     <aside class="most-popular">
+     <div class="title-popular-section"></div>
+     </aside>
+
+  <!--Section one: locations-->
+     <section class="section-one" id="section-one"></section>
+   </div>
+
+  <!--Section two: activities-->
+     <section class="section-two" id="section-two"></section>
+  </main>
+
+
+  <!--footer-->  
+    <script src="https://kit.fontawesome.com/915d0ea0a4.js" crossorigin="anonymous"></script>
+  </body>
 </html>
