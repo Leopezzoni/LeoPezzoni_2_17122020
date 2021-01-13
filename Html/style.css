@@ -1,7 +1,7 @@
 /* Body page configuration */
 body {
     box-sizing: border-box;
-    font-family: "Raleway", "serif";
+    font-family: "Raleway", "sans-serif";
     max-width: 1440px;
     margin: auto;
 }
@@ -209,8 +209,132 @@ img {
     width: auto;
 }
 
+.most-popular .card {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    height: 120px;
+    margin: 15px;
+    text-decoration: none;
+    transform-origin: 50% 50%;
+    transition: transform 0.1s linear;
+    width: auto;
+}
+
+.most-popular a:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.02) rotate(0.1deg);
+}
+
+
+.most-popular .imgcard {
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid white;
+    height: 113px;
+    object-fit: cover;
+    width: 128px;
+}
+
+.most-popular .card .content-card {
+    padding-top: 15px;
+}
+
+.most-popular .content-card h4 {
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
+.most-popular .content-card span {
+    font-size: 12px;
+    margin: 10px;
+    text-align: left;
+}
+
+.most-popular .ratting-stars {
+    margin-left: 10px;
+}
+
+.most-popular .fa-star {
+    font-size: 10px;
+    margin-top: 8px;
+}
+
 /* Section one */
+.section-one h3 {
+    margin: 35px 20px;
+}
+
+.section-one a {
+    text-decoration: none;
+    transform-origin: 50% 50%;
+    transition: transform 0.1s linear;
+}
+
+.section-one a:hover {
+    transform: scale(1.02) rotate(0.1deg);
+}
+
 /* Style of cards */
+.section-one .card {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    height: 180px;
+    width: auto;
+    margin: 15px;
+    filter: drop-shadow(0 0 4px #ccc);
+}
+
+.section-one .content-card {
+    height: 70px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.section-one .content-card h4 {
+    margin: 0px;
+}
+
+.section-one .content-card span {
+    font-size: 12px;
+}
+
+.section-one img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    object-fit: cover;
+    padding: 5px;
+    width: 97%;
+}
+
+.fa-star {
+    color: #0065FC;
+}
+.ratting-stars .unratted-star {
+    color: grey;
+}
+
+.section-one .ratting-stars {
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+.section-one .see-more {
+    color: black;
+    font-size: 12px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+
 /* section two */
 /* Footer */
 /**** mediaquerie for screen < 768px ******/
@@ -262,6 +386,55 @@ img {
         flex-wrap: nowrap;
         height: 60px
     }
+    
+    /* Changes for most-popular */
+    .title-popular-section {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 18px;
+    }
+
+    .most-popular {
+        border-radius: 15px;
+    }
+
+    .most-popular .card {
+        width: auto;
+    }
+
+    .most-popular .imgcard {
+        height: 110px;
+    }
+
+    .most-popular h4 {
+        font-size: 12px;
+        margin-right: 8px;
+    }
+
+    .most-popular .content-card span {
+        font-size: 11px;
+    }
+
+    /* changes for section one */
+    .section-one {
+        margin: 0px;
+    }
+
+    .section-one-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section-one .card {
+        width: 350px;
+    }
+    
+
+    /* Changes for section two */ 
+
+
 /**** mediaquerie for screen < 992px ******/
 
 @media screen and (min-width: 992px) {
@@ -298,3 +471,74 @@ img {
         padding: 15px;
         text-decoration: none;
     }
+    
+    /* Changes for most popular (hosting section) */
+    .hosting {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .title-popular-section {
+        padding: 15px;
+    }
+
+    .most-popular {
+        min-width: 22%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .most-popular .card {
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        filter: drop-shadow(0 0 4px #ccc);
+        height: 120px;
+        margin: 5px;
+    }
+
+    .most-popular .imgcard {
+        height: 112px;
+        width: 100px;
+    }
+
+    .most-popular h4 {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    /* Changes for section one */
+    .section-one {
+        background: #f2f2f2;
+        border-radius: 15px;
+        margin-right: 20px;
+        padding: 15px;
+    }
+
+    .section-one-cards {
+        align-items: center;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .section-one-cards .card {
+        margin: 20px 10px;
+        width: 270px;
+    }
+
+    .section-one a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-one h4 {
+        margin: 0px 10px;
+    }
+
+    .section-one h3 {
+        margin: 20px 20px;
+    }
+
+    /* Changes for section two */
