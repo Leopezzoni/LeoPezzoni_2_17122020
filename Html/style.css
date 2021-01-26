@@ -54,9 +54,10 @@ img {
     text-decoration: underline;
 }
 /* Title & Subtitle */
-.title h1 {
+.vacation {
     font-size: 20px;
     margin: 10px;
+    font-weight: bold;
 }
 .title h3 {
     font-size: 15px;
@@ -103,6 +104,7 @@ img {
 /* Filters */
 .filters h3 {
     margin: 10px;
+    text-align: ;
 }
 .filters a {
     color: black;
@@ -143,7 +145,7 @@ img {
 .btn:hover {
     background-color: #0065FC;
     color: white;
-    border: 2px solid #deebff;
+    border: 2px solid grey;
 }
 /* Text after Filters */
 .description-filters {
@@ -162,7 +164,7 @@ img {
 }
 /* Most popular Aside */
 .most-popular {
-    background-color: white;
+    background-color : #F2F2F2;
     padding: 5px;
     width: auto;
 }
@@ -296,6 +298,7 @@ img {
 /* section two */
 .section-two {
     margin-bottom: 30px;
+    padding: 15px;
 }
 
 .section-two a {
@@ -499,7 +502,7 @@ footer a {
         padding: 4px;
     }
 
- 
+} 
 
   
 
@@ -510,11 +513,11 @@ footer a {
 @media screen and (min-width: 992px) {
     body {
         max-width: 1240px;
-        margin: auto
+        margin: auto;
     }
     /*** changes for header section ***/
     .header img {
-        width: 100px
+        width: 100px;
     }
     .header-navigation-links,
     .header-signup {
@@ -536,7 +539,7 @@ footer a {
         padding: 15px;
         text-decoration: none;
     } 
-    }
+    
 
     /* Changes for most popular (hosting section) */
     .hosting {
@@ -688,7 +691,7 @@ footer a {
     .section-two-cards .card6 .card-img {
         height: 80%;
     }
-
     
     
   
+}
