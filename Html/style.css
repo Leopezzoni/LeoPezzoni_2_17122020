@@ -21,7 +21,7 @@ img {
 }
 .header a {
     text-decoration: none;
-    color: gray;
+    color: #0065FC;
 }
 /* Logo Size configuration for mobile version */
 .header img {
@@ -56,12 +56,12 @@ img {
 /* Title & Subtitle */
 .vacation {
     font-size: 20px;
-    margin: 10px;
+    margin: 15px;
     font-weight: bold;
 }
 .title h3 {
     font-size: 15px;
-    margin: 10px;
+    margin: 17px;
 }
 /* Search bar configuration */
 .searchbar {
@@ -70,7 +70,7 @@ img {
     display: flex;
     height: 50px;
     justify-content: space-between;
-    margin: 30px 5px;
+    margin: 45px 15px;
     max-width: 400px;
     min-width: 305px;
 }
@@ -104,7 +104,7 @@ img {
 /* Filters */
 .filters h3 {
     margin: 10px;
-    text-align: ;
+    /* text-align: ; */
 }
 .filters a {
     color: black;
@@ -145,14 +145,14 @@ img {
 .btn:hover {
     background-color: #0065FC;
     color: white;
-    border: 2px solid grey;
+    border: 2px solid #0065FC;
 }
 /* Text after Filters */
 .description-filters {
     margin: 25px 5px;
 }
 .description-filters-icon {
-    color:#0065FC;
+    color: #0065FC;
     margin: 10px;
 }
 /* Title for most popular section */
@@ -289,8 +289,9 @@ img {
 
 .section-one .see-more {
     color: black;
-    font-size: 12px;
-    margin: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
     text-decoration: none;
 }
 
@@ -307,7 +308,7 @@ img {
 }
 
 .section-two h3 {
-    margin: 15px;
+    margin: 5px;
 }
 
 .section-two h4 {
@@ -315,6 +316,7 @@ img {
     margin-left: 15px;
 }
 
+/* Style of cards */
 .section-two .content-card {
     padding: 5px;
 }
@@ -333,11 +335,11 @@ img {
     overflow: hidden;
 }
 
-.section-two .card1
-.section-two .card2
-.section-two .card3
-.section-two .card4
-.section-two .card5
+.section-two .card1,
+.section-two .card2,
+.section-two .card3,
+.section-two .card4,
+.section-two .card5,
 .section-two .card6 {
     background-color: white;
     border-radius: 15px;
@@ -376,7 +378,8 @@ footer a {
 /**** mediaquerie for screen < 768px ******/
 @media screen and (min-width: 768px) {
     .body {
-        margin: auto
+        margin: auto;
+        justify-content: space-between;
     }
     /*  Changes for header section  */
     .header {
