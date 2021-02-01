@@ -17,7 +17,7 @@ img {
     font-size: 14px;
     font-weight: bold;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
 }
 .header a {
     text-decoration: none;
@@ -35,7 +35,7 @@ img {
 .header-navigation-links-mobile {
     display: flex;
     justify-content: space-around;
-    padding: 9px 36px;
+    padding: 9px 50px;
     text-decoration: none;
 }
 .header-navigation-links-mobile [data-active=true] {
@@ -44,7 +44,7 @@ img {
     text-decoration: none;
 }
 .header-navigation-links-mobile [data-active=false] {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #ccc;
     color: grey;
 }
 .header-signup {
@@ -56,12 +56,13 @@ img {
 /* Title & Subtitle */
 .vacation {
     font-size: 20px;
-    margin: 15px;
+    margin: 16px;
     font-weight: bold;
 }
 .title h3 {
     font-size: 15px;
-    margin: 17px;
+    margin: 16px;
+    color: #808080;
 }
 /* Search bar configuration */
 .searchbar {
@@ -70,8 +71,8 @@ img {
     display: flex;
     height: 50px;
     justify-content: space-between;
-    margin: 45px 15px;
-    max-width: 400px;
+    margin: 34px 15px;
+    max-width: 344px;
     min-width: 305px;
 }
 .searchbar input {
@@ -103,7 +104,8 @@ img {
 }
 /* Filters */
 .filters h3 {
-    margin: 10px;
+    margin: 22px;
+    padding: -2px;
     /* text-align: ; */
 }
 .filters a {
@@ -140,7 +142,7 @@ img {
     font-weight: bold;
     height: 40px;
     margin-bottom: 9px;
-    margin-left: 9px;
+    margin-left: 16px;
 }
 .btn:hover {
     background-color: #0065FC;
@@ -150,10 +152,14 @@ img {
 /* Text after Filters */
 .description-filters {
     margin: 25px 5px;
+    margin-left: 16px;
 }
 .description-filters-icon {
     color: #0065FC;
     margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 4px;
 }
 /* Title for most popular section */
 .title-popular-section {
@@ -295,6 +301,10 @@ img {
     text-decoration: none;
 }
 
+.bold {
+    font-weight: bolder;
+}
+
 
 /* section two */
 .section-two {
@@ -357,10 +367,13 @@ footer {
 
 footer ul {
     list-style: none;
+    padding: 5px;
+    margin-left: -15px;
 }
 
 footer h2 {
     font-size: 18px;
+    margin-left: -5px;
 }
 
 footer li {
@@ -399,7 +412,6 @@ footer a {
 
     .header-navigation-links[data-active=true] {
         color: #0065FC;
-        border-top: 2px solid #0065FC;
     }
 
     
@@ -492,11 +504,13 @@ footer a {
 
     h2 {
         font-size: 18px;
+        margin-left: -5px;
     }
 
     ul {
         margin: 10px 0px;
-        padding: 0;
+        padding: 5px;
+        margin-left: -15px;
         list-style-type: none;
     }
 
@@ -693,6 +707,16 @@ footer a {
 
     .section-two-cards .card6 .card-img {
         height: 80%;
+    }
+
+    footer h2 {
+        font-size: 18px;
+        margin-left: -148px;
+    }
+
+    footer ul {
+        padding: 5px;
+        margin-left: -158px;
     }
     
     
