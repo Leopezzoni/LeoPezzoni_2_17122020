@@ -34,7 +34,6 @@ img {
 .header-navigation-links-mobile {
     display: flex;
     justify-content: space-around;
-    padding: 9px 51px;
     text-decoration: none;
     position: relative;
     bottom: 6px;
@@ -43,10 +42,16 @@ img {
     border-bottom: 2px solid #0065FC;
     color: #0065FC;
     text-decoration: none;
+    display: block;
+    width: 53%;
+    text-align: center;
 }
 .header-navigation-links-mobile [data-active=false] {
     border-bottom: 2px solid #ccc;
     color: grey;
+    display: block;
+    width: 50%;
+    text-align: center;
 }
 .header-signup {
     display: none;
@@ -154,6 +159,8 @@ img {
     border: 2px solid #ccc;
     border-radius: 50%;
     padding: 4px;
+    width: 10px;
+    height: 10px;
 }
 
 
@@ -317,6 +324,8 @@ img {
 
 .section-two h3 {
     margin: 5px;
+    position: relative;
+    right: 19px;
 }
 
 .section-two h4 {
@@ -353,7 +362,7 @@ img {
     border-radius: 15px;
     filter: drop-shadow(0 0 4px #ccc);
     height: 100%;
-    margin: 15px;
+    margin: 5px;
 }
 
 
@@ -405,6 +414,9 @@ footer a {
     .header-navigation-links {
         display: inline;
         padding: 25px 10px 0px;
+        color: grey;
+        position: relative;
+        right: 11px;
     }
     .header-navigation-links:hover {
         border-top: 2px solid #0065fc;
@@ -428,6 +440,7 @@ footer a {
 
     .header-signup {
         display: initial;
+        color: #0065FC;
     }
     .header-signup:hover {
         color: #0065FC;
@@ -509,6 +522,7 @@ footer a {
     /* Changes for section two */ 
     .section-two {
         margin-bottom: 0px;
+        margin-top: 25px;
     }
 
     .section-two-cards {
@@ -520,6 +534,9 @@ footer a {
     .section-two-cards a {
         height: 100%;
     }
+
+  
+
 
 
     /* Changes for footer section */
@@ -717,6 +734,8 @@ footer a {
     .section-two-cards .card1 {
         grid-row: 2/7;
         grid-column: 1/2;
+        position: relative;
+        right: 19px;
     }
 
     .section-two-cards .card1 .card-img {
@@ -726,6 +745,8 @@ footer a {
     .section-two-cards .card2 {
         grid-column: 2/3;
         grid-row: 2/5;
+        position: relative;
+        right: 15px;
     }
 
     .section-two-cards .card2 .card-img {
@@ -735,6 +756,8 @@ footer a {
     .section-two-cards .card3 {
         grid-column: 3/4;
         grid-row: 2/7;
+        position: relative;
+        left: 3px;
     }
 
     .section-two-cards .card3 .card-img {
@@ -744,6 +767,8 @@ footer a {
     .section-two-cards .card4 {
         grid-column: 4/5;
         grid-row: 2/3;
+        position: relative;
+        left: 20px;
     }
 
     .section-two-cards .card4 .card-img {
@@ -753,6 +778,8 @@ footer a {
     .section-two-cards .card5 {
         grid-column: 2/3;
         grid-row: 6/7;
+        position: relative;
+        right: 15px;
     }
 
     .section-two-cards .card5 .card-img {
@@ -762,11 +789,15 @@ footer a {
     .section-two-cards .card6 {
         grid-column: 4/5;
         grid-row: 4/7;
+        position: relative;
+        left: 20px;
     }
 
     .section-two-cards .card6 .card-img {
         height: 80%;
     }
+
+    
 
     footer {
         display: flex;
@@ -774,16 +805,18 @@ footer a {
         list-style: none;
         padding: 20px;
         text-align: left;
+        background-size: cover;
     }
 
     footer h2 {
         font-size: 18px;
-        margin-left: -148px;
+        margin-left: -116px;
     }
 
     footer ul {
         padding: 5px;
-        margin-left: -158px;
+        position: relative;
+        right: 109px;
     }
     
     
@@ -809,13 +842,17 @@ footer a {
 
     .filters h3 {
         margin: 22px;
-        position: absolute;
-        top: 313px;
     }
 
     .town {
         position: relative;
-        left: 36px;
-        bottom: 14px;
+        left: 42px;
+        bottom: 11px;
+    }
+
+    .section-two h3 {
+        margin: 5px;
+        position: relative;
+        right: 0px;
     }
 }
