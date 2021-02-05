@@ -43,7 +43,7 @@ img {
     color: #0065FC;
     text-decoration: none;
     display: block;
-    width: 53%;
+    width: 50%;
     text-align: center;
 }
 .header-navigation-links-mobile [data-active=false] {
@@ -153,14 +153,28 @@ img {
     left: -2px;
     top: 20px;
 }
-.description-filters-icon {
+.description-filters-ctn {
+    position: relative;
+    right: 6px;
     color: #0065FC;
     margin: 10px;
     border: 2px solid #ccc;
     border-radius: 50%;
     padding: 4px;
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+}
+.description-filters-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.town {
+    position: relative;
+    bottom: 17px;
+    right: 9px;
 }
 
 
@@ -846,8 +860,8 @@ footer a {
 
     .town {
         position: relative;
-        left: 42px;
-        bottom: 11px;
+        left: -8px;
+        bottom: 17px;
     }
 
     .section-two h3 {
