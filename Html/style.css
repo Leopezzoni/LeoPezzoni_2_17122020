@@ -84,7 +84,7 @@ img {
     justify-content: space-between;
     margin: 22px 15px;
     max-width: 344px;
-    min-width: 305px;
+    min-width: 212px;
 }
 .searchbar input {
     border: none;
@@ -102,14 +102,7 @@ img {
 .searchbar-text {
     display: none;
 }
-.fa-search {
-    background-color: #0065FC;
-    border-radius: 15px;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    text-align: center;
-}
+
 .fa-search:hover {
     background-color: #deebff;
 }
@@ -122,6 +115,17 @@ img {
 .filters-button {
     display: flex;
     flex-wrap: wrap;
+}
+.filters {
+    display: inline-block;
+    position: relative;
+    bottom: 39px;
+    left: -4px;
+}
+.filternew {
+    position: relative;
+    bottom: 69px;
+    left: 18px;
 }
 .btn span {
     margin-left: 10px;
@@ -149,9 +153,6 @@ img {
 .description-filters {
     margin: 25px 5px;
     margin-left: 16px;
-    position: relative;
-    left: -2px;
-    top: 20px;
 }
 .description-filters-ctn {
     position: relative;
@@ -161,8 +162,8 @@ img {
     border: 2px solid #ccc;
     border-radius: 50%;
     padding: 4px;
-    width: 1rem;
-    height: 1rem;
+    width: 13px;
+    height: 13px;
     display: inline-block;
 }
 .description-filters-icon {
@@ -179,7 +180,6 @@ img {
 
 
 
-
 /* Title for most popular section */
 .title-popular-section {
     align-items: center;
@@ -192,6 +192,15 @@ img {
     background-color : #F2F2F2;
     padding: 5px;
     width: auto;
+}
+
+.popular {
+    position: relative;
+    right: 25px;
+}
+.fa-chart-line:before {
+    position: relative;
+    left: 28px;
 }
 
 .most-popular .card {
@@ -439,6 +448,7 @@ footer a {
 
     .header-navigation-links[data-active=true] {
         color: #0065FC;
+        border-top: 2px solid #0065FC;
     }
 
     
@@ -465,6 +475,12 @@ footer a {
         flex-wrap: nowrap;
         height: 60px
     }
+    .filters h3 {
+        margin: 22px;
+        position: relative;
+        top: 73px;
+        left: 2px;
+    }
 
     .btn {
         padding: 0;
@@ -482,11 +498,7 @@ footer a {
         bottom: -20px;
     }
 
-    .filters h3 {
-        margin: 22px;
-        position: absolute;
-        top: 251px;
-    }
+    
 
     /* Changes for most-popular */
     .title-popular-section {
@@ -537,6 +549,11 @@ footer a {
     .section-two {
         margin-bottom: 0px;
         margin-top: 25px;
+    }
+    .section-two h3 {
+        margin: 5px;
+        position: relative;
+        right: 0px;
     }
 
     .section-two-cards {
@@ -619,9 +636,12 @@ footer a {
         display: inline;
         padding: 15px;
         text-decoration: none;
-    } 
+    }
 
     .fa-search {
+        display: none;
+    }
+    .fa-search::before {
         display: none;
     }
 
@@ -641,11 +661,7 @@ footer a {
         left: 80px;
     }
 
-    .filters h3 {
-        margin: 22px;
-        position: absolute;
-        top: 257px;
-    }
+   
     
 
     /* Changes for most popular (hosting section) */
@@ -810,27 +826,30 @@ footer a {
     .section-two-cards .card6 .card-img {
         height: 80%;
     }
-
+    .section-two h3 {
+        margin: 5px;
+        position: relative;
+        right: 18px;
+    }
     
 
     footer {
         display: flex;
         justify-content: space-around;
         list-style: none;
-        padding: 20px;
         text-align: left;
         background-size: cover;
     }
 
     footer h2 {
         font-size: 18px;
-        margin-left: -116px;
+        margin-left: -135px;
     }
 
     footer ul {
         padding: 5px;
         position: relative;
-        right: 109px;
+        right: 129px;
     }
     
     
@@ -850,18 +869,34 @@ footer a {
         margin-bottom: 9px;
         margin-left: 16px;
         position: relative;
-        left: 2px;
-        bottom: -37px;
+        left: 6px;
+        bottom: 4px;
+    }
+
+    .filters {
+        display: inline-block;
+        position: relative;
+        bottom: 13px;
+        left: -4px;
     }
 
     .filters h3 {
         margin: 22px;
+        position: relative;
+        top: 4px;
+        left: 2px;
     }
 
     .town {
         position: relative;
         left: -8px;
-        bottom: 17px;
+        bottom: 16px;
+    }
+
+    .section-one h3 {
+        position: relative;
+        margin: 35px 20px;
+        left: -5px;
     }
 
     .section-two h3 {
@@ -869,4 +904,27 @@ footer a {
         position: relative;
         right: 0px;
     }
+}
+
+@media screen and (max-width: 992px) {
+    .fa-search {
+        background-color: #0065FC;
+        border-radius: 15px;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .fa-chart-line:before {
+        position: relative;
+        left: 4px;
+    }
+
+    .popular {
+        position: relative;
+        right: 0px;
+    }
+  
+    
 }
