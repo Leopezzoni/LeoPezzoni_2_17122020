@@ -202,6 +202,43 @@ img {
     position: relative;
     left: 28px;
 }
+.fa-money-bill-wave.circle {
+    position: relative;
+    width: 20px;
+    height: 18px;
+}
+.fa-money-bill-wave.circle:before {
+    position: relative;
+    right: 3px;
+}
+.fa-child.circle {
+    position: relative;
+    width: 20px;
+    height: 18px;
+}
+.fa-child.circle:before {
+    position: relative;
+    left: 3px;
+}
+.fa-heart.circle {
+    position: relative;
+    width: 20px;
+    height: 18px;
+}
+.fa-heart.circle:before {
+    position: relative;
+}
+.fa-dog.circle {
+    position: relative;
+    width: 20px;
+    height: 18px;
+}
+.fa-dog.circle:before {
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+
 
 .most-popular .card {
     background-color: white;
@@ -240,6 +277,8 @@ img {
 .most-popular .content-card h4 {
     font-size: 16px;
     margin: 0px 10px;
+    position: relative;
+    bottom: 9px;
 }
 
 .most-popular .content-card span {
@@ -328,6 +367,18 @@ img {
     margin: 20px;
     text-decoration: none;
 }
+.star-1 {
+    position: relative;
+    top: 38px;
+}
+.star-2 {
+    position: relative;
+    top: -7px;
+}
+.star-3 {
+    position: relative;
+    top: 20px;
+}
 
 .bold {
     font-weight: bolder;
@@ -392,7 +443,7 @@ img {
 /* Footer */
 footer {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 37px;
 }
 
 footer ul {
@@ -414,6 +465,16 @@ footer a {
     text-decoration: none;
     color: black;
 }
+.section-a {
+    position: relative;
+}
+.section-b {
+    position: relative;
+}
+.section-c {
+    position: relative;
+}
+
 
 
 
@@ -527,6 +588,8 @@ footer a {
 
     .most-popular .content-card span {
         font-size: 11px;
+        position: relative;
+        bottom: 9px;
     }
 
     /* changes for section one */
@@ -575,7 +638,6 @@ footer a {
         display: flex;
         justify-content: space-around;
         list-style: none;
-        padding: 20px;
         text-align: left;
     }
 
@@ -698,6 +760,9 @@ footer a {
     .most-popular h4 {
         font-size: 14px;
         margin: 10px;
+    }
+    .star-1 {
+        top: -9px;
     }
 
     /* Changes for section one */
@@ -839,6 +904,9 @@ footer a {
         list-style: none;
         text-align: left;
         background-size: cover;
+        position: absolute;
+        left: 0px;
+        right: -46px;
     }
 
     footer h2 {
@@ -850,6 +918,10 @@ footer a {
         padding: 5px;
         position: relative;
         right: 129px;
+    }
+    .section-a {
+        position: relative;
+        left: 70px;
     }
     
     
@@ -925,6 +997,45 @@ footer a {
         position: relative;
         right: 0px;
     }
+    .fa-money-bill-wave.circle {
+        position: relative;
+        top: 2px;
+    }
+    .fa-money-bill-wave.circle:before {
+        position: relative;
+        bottom: 2px;
+    }
+    .fa-child.circle {
+        position: relative;
+        top: 2px;
+    }
+    .fa-child.circle:before {
+        position: relative;
+        bottom: 2px;
+    }
+    .fa-heart.circle {
+        position: relative;
+        top: 2px;
+    }
+    .fa-heart.circle:before {
+        position: relative;
+        bottom: 2px;
+    }
+    .fa-dog.circle {
+        position: relative;
+        top: 2px;
+    }
+    .star-1{
+        top: 37px;
+    }
+    .star-2 {
+        top: 24px;
+    }
+    .star-3 {
+        top: 24px;
+    }
+   
   
     
 }
+
