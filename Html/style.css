@@ -367,18 +367,6 @@ img {
     margin: 20px;
     text-decoration: none;
 }
-.star-1 {
-    position: relative;
-    top: 38px;
-}
-.star-2 {
-    position: relative;
-    top: -7px;
-}
-.star-3 {
-    position: relative;
-    top: 20px;
-}
 
 .bold {
     font-weight: bolder;
@@ -452,7 +440,7 @@ footer ul {
     margin-left: -15px;
 }
 
-footer h2 {
+footer h3 {
     font-size: 18px;
     margin-left: -5px;
 }
@@ -465,13 +453,7 @@ footer a {
     text-decoration: none;
     color: black;
 }
-.section-a {
-    position: relative;
-}
-.section-b {
-    position: relative;
-}
-.section-c {
+.about {
     position: relative;
 }
 
