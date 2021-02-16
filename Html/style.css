@@ -426,6 +426,10 @@ img {
     height: 100%;
     margin: 5px;
 }
+.calanques {
+    height: 50%;
+}
+
 
 
 /* Footer */
@@ -454,6 +458,12 @@ footer a {
     color: black;
 }
 .about {
+    position: relative;
+}
+.our-hostings {
+    position: relative;
+}
+.assistance {
     position: relative;
 }
 
@@ -833,10 +843,10 @@ footer a {
     }
 
     .section-two-cards .card3 {
-        grid-column: 3/4;
-        grid-row: 2/7;
+        grid-column: 2/3;
+        grid-row: 6/7;
         position: relative;
-        left: 3px;
+        right: 5%;
     }
 
     .section-two-cards .card3 .card-img {
@@ -844,10 +854,8 @@ footer a {
     }
 
     .section-two-cards .card4 {
-        grid-column: 4/5;
-        grid-row: 2/3;
-        position: relative;
-        left: 20px;
+        grid-column: 3/4;
+        grid-row: 1/7;
     }
 
     .section-two-cards .card4 .card-img {
@@ -855,10 +863,11 @@ footer a {
     }
 
     .section-two-cards .card5 {
-        grid-column: 2/3;
-        grid-row: 6/7;
+        grid-column: 4/4;
+        grid-row: 1/6;
         position: relative;
-        right: 15px;
+        height: 85%;
+        width: 103%;
     }
 
     .section-two-cards .card5 .card-img {
@@ -867,9 +876,10 @@ footer a {
 
     .section-two-cards .card6 {
         grid-column: 4/5;
-        grid-row: 4/7;
+        grid-row: 5/7;
         position: relative;
-        left: 20px;
+        height: 100%;
+        width: 103%;
     }
 
     .section-two-cards .card6 .card-img {
@@ -879,6 +889,18 @@ footer a {
         margin: 5px;
         position: relative;
         right: 18px;
+    }
+    .national-parc {
+        position: relative;
+        top: 19%;
+    }
+    .frioul-island {
+        position: relative;
+        bottom: 15%;
+    }
+    .longchamp {
+        position: relative;
+        bottom: 3%;
     }
     
 
@@ -901,13 +923,21 @@ footer a {
     footer ul {
         padding: 5px;
         position: relative;
-        right: 129px;
+        right: 30%;
     }
     .section-a {
         position: relative;
         left: 70px;
     }
-    
+    .about {
+        right: 30%;
+    }
+    .our-hostings {
+        right: 30%;
+    }
+    .assistance {
+        right: 30%;
+    }
     
   
 }
