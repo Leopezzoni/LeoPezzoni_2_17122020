@@ -810,6 +810,16 @@ footer a {
         height: 100%;
         width: 100%;
     }
+    .section-two .card-img-card3 {
+        height: 85%;
+    }
+    .section-two .card-img-card4 {
+        height: 129%;
+    }
+    .section-two .card-img-card5 {
+        height: 111%;
+    }
+    
 
     .section-two a {
         transform-origin: 50% 50%;
@@ -902,6 +912,10 @@ footer a {
         position: relative;
         bottom: 3%;
     }
+    .title-4 {
+        position: relative;
+        top: 20px;
+    }
     
 
     footer {
@@ -937,6 +951,14 @@ footer a {
     }
     .assistance {
         right: 30%;
+    }
+    .section-hostings {
+        position: relative;
+        right: 10%;
+    }
+    .section-assists {
+        position: relative;
+        right: 15%;
     }
     
   
