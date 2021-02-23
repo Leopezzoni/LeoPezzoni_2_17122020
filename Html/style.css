@@ -129,7 +129,7 @@ img {
     flex-wrap: wrap;
 }
 .filters {
-    display: inline-block;
+    display: inline;
     position: relative;
     bottom: 39px;
     left: -4px;
@@ -397,7 +397,7 @@ img {
     text-decoration: none;
 }
 /* TODO Style bold ou bolder ? */
-.bold {
+.word {
     font-weight: bolder;
 }
 
@@ -431,7 +431,6 @@ img {
 
 .section-two-cards {
     display: grid;
-    grid-template-rows: repeat(6, 180px);
     row-gap: 15px;
 }
 /* TODO Ciblage de balise déconseillé */
@@ -646,7 +645,6 @@ footer a {
     .section-two-cards {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 180px 180px 180px 50px;
     }
 
     .section-two-cards a {
@@ -723,7 +721,7 @@ footer a {
         padding: 15px;
         text-decoration: none;
     } 
-    .searchbar > .custon-icon {
+    .searchbar > .custom-icon {
         display: none;
     }
     .fa-search {
@@ -797,13 +795,6 @@ footer a {
         border-radius: 15px;
         margin-right: 20px;
         padding: 15px;
-    }
-
-    .section-one-cards {
-        align-items: center;
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-around;
     }
 
     .section-one-cards .card {
@@ -906,7 +897,7 @@ footer a {
 
     .section-two-cards .card5 {
         grid-column: 4/4;
-        grid-row: 1/6;
+        grid-row: 2/5;
         position: relative;
         height: 85%;
         width: 103%;
@@ -960,12 +951,6 @@ footer a {
         left: 0px;
         right: -46px;
     }
-
-    footer h2 {
-        font-size: 18px;
-        margin-left: -135px;
-    }
-
     footer ul {
         padding: 5px;
         position: relative;
