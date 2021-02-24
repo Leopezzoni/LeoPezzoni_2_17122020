@@ -599,9 +599,9 @@ footer a {
     .most-popular .card {
         width: auto;
     }
-    /* TODO Pourquoi 110 pas possible d'uliser une autre mesure ? */
+    
     .most-popular .imgcard {
-        height: 110px;
+        height: 7rem;
     }
 
     .most-popular h4 {
@@ -763,8 +763,6 @@ footer a {
 
     .most-popular {
         min-width: 22%;
-        display: flex;
-        flex-direction: column;
     }
 
     .most-popular .card {
@@ -777,8 +775,8 @@ footer a {
     }
 
     .most-popular .imgcard {
-        height: 112px;
-        width: 100px;
+        height: 7rem;
+        width: 6rem;
     }
 
     .most-popular h4 {
