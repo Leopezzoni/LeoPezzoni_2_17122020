@@ -92,8 +92,8 @@ img {
     height: 50px;
     justify-content: space-between;
     margin: 22px 15px;
-    max-width: 344px;
-    min-width: 212px;
+    max-width: 21rem;
+    min-width: 11rem;
 }
 /* TODO Ciblage de balise déconseillé */
 
@@ -129,7 +129,6 @@ img {
     flex-wrap: wrap;
 }
 .filters {
-    display: inline;
     position: relative;
     bottom: 39px;
     left: -4px;
@@ -264,7 +263,7 @@ img {
     border-radius: 25px;
     color: black;
     display: flex;
-    height: 120px;
+    height: 8rem;
     margin: 15px;
     text-decoration: none;
     transform-origin: 50% 50%;
@@ -587,17 +586,12 @@ footer a {
     /* Changes for most-popular */
     .title-popular-section {
         align-items: center;
-        display: flex;
         justify-content: space-between;
         margin: 0px 18px;
     }
 
     .most-popular {
         border-radius: 15px;
-    }
-
-    .most-popular .card {
-        width: auto;
     }
     
     .most-popular .imgcard {
@@ -659,8 +653,6 @@ footer a {
     footer {
         display: flex;
         justify-content: space-around;
-        list-style: none;
-        text-align: left;
     }
 
     h2 {
@@ -695,7 +687,7 @@ footer a {
     }
     /*** changes for header section ***/
     .header img {
-        width: 100px;
+        width: 7rem;
     }
     .header-navigation-links,
     .header-signup {
@@ -768,7 +760,6 @@ footer a {
     .most-popular .card {
         background-color: white;
         border-radius: 25px;
-        display: flex;
         filter: drop-shadow(0 0 4px #ccc);
         height: 120px;
         margin: 5px;
@@ -940,11 +931,6 @@ footer a {
     
 
     footer {
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        text-align: left;
-        background-size: cover;
         position: absolute;
         left: 0px;
         right: -46px;
@@ -997,7 +983,6 @@ footer a {
     }
 
     .filters {
-        display: inline-block;
         position: relative;
         bottom: 13px;
         left: -4px;
