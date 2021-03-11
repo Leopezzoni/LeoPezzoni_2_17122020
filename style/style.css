@@ -1,7 +1,4 @@
-/* 
-    TODO De maniere général il vaut mieu utiliser l'unité de mesure rem pour toutes les mesure au dela de 10px,
-    pour cela il est conseillé d'initialisé html à une font-size de 10px ainsi 1rem = 10px 
-*/
+
 /* Body page configuration */
 body {
     box-sizing: border-box;
@@ -23,12 +20,10 @@ img {
     justify-content: space-between;
     padding: 20px;
 }
-/* TODO Ciblage de balise déconseillé */
 .header a {
     text-decoration: none;
 }
 /* Logo Size configuration for mobile version */
-/* TODO Ciblage de balise déconseillé */
 
 .header img {
     width: 80px;
@@ -77,7 +72,6 @@ img {
     margin: 16px;
     font-weight: bold;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .title h3 {
     font-size: 15px;
@@ -95,7 +89,6 @@ img {
     max-width: 21rem;
     min-width: 11rem;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .searchbar input {
     border: none;
@@ -118,7 +111,6 @@ img {
     background-color: #deebff;
 }
 /* Filters */
-/* TODO Ciblage de balise déconseillé */
 
 .filters a {
     color: black;
@@ -138,18 +130,15 @@ img {
     bottom: 69px;
     left: 18px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .btn span {
     margin-left: 10px;
     margin: 10px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .btn:hover span {
     text-decoration: #0065FC;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .btn i {
     background-color: #deebff;
@@ -215,7 +204,6 @@ img {
     position: relative;
     right: 25px;
 }
-/* TODO Les class fa ne t'appartienne pas il est fortement de ne pas les toucher mais plutot de surcharger le style avec une autre class */
 .fa-chart-line:before {
     position: relative;
     left: 28px;
@@ -270,7 +258,6 @@ img {
     transition: transform 0.1s linear;
     width: auto;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .most-popular a:hover {
     color: black;
@@ -292,7 +279,6 @@ img {
 .most-popular .card .content-card {
     padding-top: 15px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .most-popular .content-card h4 {
     font-size: 16px;
@@ -300,7 +286,6 @@ img {
     position: relative;
     bottom: 9px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .most-popular .content-card span {
     font-size: 12px;
@@ -311,26 +296,23 @@ img {
 .most-popular .ratting-stars {
     margin-left: 10px;
 }
-/* Class fa star deja personalisé à un autre endroit il vaut mieuc rassemeblé le style */
+
 .most-popular .fa-star {
     font-size: 10px;
     margin-top: 8px;
 }
 
 /* Section one */
-/* TODO Ciblage de balise déconseillé */
 
 .section-one h3 {
     margin: 35px 20px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .section-one a {
     text-decoration: none;
     transform-origin: 50% 50%;
     transition: transform 0.1s linear;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .section-one a:hover {
     transform: scale(1.02) rotate(0.1deg);
@@ -355,17 +337,14 @@ img {
     margin-left: 10px;
     margin-bottom: 0;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .section-one .content-card h4 {
     margin: 0px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .section-one .content-card span {
     font-size: 12px;
 }
-/* TODO Ciblage de balise déconseillé */
 
 .section-one img {
     border-top-left-radius: 20px;
@@ -395,7 +374,7 @@ img {
     margin: 20px;
     text-decoration: none;
 }
-/* TODO Style bold ou bolder ? */
+
 .word {
     font-weight: bolder;
 }
@@ -406,18 +385,18 @@ img {
     margin-bottom: 30px;
     padding: 15px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 .section-two a {
     color: black;
     text-decoration: none;
 }
-/* TODO Ciblage de balise déconseillé */
+
 .section-two h3 {
     margin: 5px;
     position: relative;
     right: 19px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 .section-two h4 {
     margin: 5px;
     margin-left: 15px;
@@ -432,7 +411,7 @@ img {
     display: grid;
     row-gap: 15px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 .section-two img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -440,7 +419,7 @@ img {
     object-fit: cover;
     overflow: hidden;
 }
-/* TODO Finalement une seule class pourra etre plus parlante et plus significative */
+
 .section-two .card1,
 .section-two .card2,
 .section-two .card3,
@@ -460,27 +439,27 @@ img {
 
 
 /* Footer */
-/* TODO Ciblage de balise déconseillé */
+
 footer {
     background-color: #f2f2f2;
     padding: 37px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 footer ul {
     list-style: none;
     padding: 5px;
     margin-left: -15px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 footer h3 {
     font-size: 18px;
     margin-left: -5px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 footer li {
     padding: 4px;
 }
-/* TODO Ciblage de balise déconseillé */
+
 footer a {
     text-decoration: none;
     color: black;
@@ -509,7 +488,7 @@ footer a {
     .header {
         padding: 14px;
     }
-    /* TODO Ciblage de balise déconseillé */
+    
     .header img {
         width: 90px;
     }
@@ -557,7 +536,7 @@ footer a {
         flex-wrap: nowrap;
         height: 60px
     }
-    /* TODO Ciblage de balise déconseillé */
+    
     .filters h3 {
         margin: 22px;
         position: relative;
