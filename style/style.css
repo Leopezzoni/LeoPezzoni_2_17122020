@@ -50,7 +50,7 @@ img {
 }
 .header-navigation-links-mobile [data-active=false] {
     border-bottom: 2px solid #ccc;
-    color: grey;
+    color: #5c564e;
     display: block;
     width: 50%;
     text-align: center;
@@ -498,7 +498,7 @@ footer a {
     .header-navigation-links {
         display: inline;
         padding: 25px 10px 0px;
-        color: grey;
+        color: #5c564e;
         position: relative;
         right: 11px;
     }
@@ -909,11 +909,6 @@ footer a {
     }
     
 
-    footer {
-        position: absolute;
-        left: 0px;
-        right: -46px;
-    }
     footer ul {
         padding: 5px;
         position: relative;
