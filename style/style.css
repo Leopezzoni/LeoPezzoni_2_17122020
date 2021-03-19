@@ -73,10 +73,9 @@ img {
     font-weight: bold;
 }
 
-.title h3 {
+.sub {
     font-size: 15px;
     margin: 16px;
-    color: #808080;
 }
 /* Search bar configuration */
 .searchbar {
